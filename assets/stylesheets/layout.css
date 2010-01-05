@@ -16,7 +16,6 @@ body { margin: 0; padding: 0; font-family: Tahoma, Arial, Sans-Serif; font-size:
       #upcoming-event span { font-size: .7em; }
       #upcoming-event #sign-up { background: url(/plugin_assets/z_b2bbreakfast/images/sign-up.png) no-repeat left top; width: 159px; height: 44px; display: block; text-indent: -9999px; float: right; margin: 8px -12px 0 0; }
   #header-middle, #menu-middle, .submenu-middle, #content-middle { width: 960px; margin: 0 auto; overflow: hidden; }
-  
   #wrapper-inner { background: url(/plugin_assets/z_b2bbreakfast/images/sb-beach.jpg) repeat-x center 50px; }
       .admin #wrapper-inner { background-position: center top;} 
     #menu-outer { }
@@ -35,7 +34,7 @@ body { margin: 0; padding: 0; font-family: Tahoma, Arial, Sans-Serif; font-size:
   #content-middle { position: relative; top: 136px; }
     .admin #content-middle { top: 166px; }
   #content-inner { background: #F9F6EB; }
-  #content-inner { background: rgba(255,255,255,.9); width: 715px; float: left; padding: 15px; -moz-box-shadow: 4px 4px 0 rgba(15,15,15,.4); -webkit-box-shadow: 4px 4px 0 rgba(15,15,15,.4); box-shadow: 4px 4px 0 rgba(15,15,15,.4); margin: 0 0 20px 0;}
+  #content-inner { background: rgba(255,255,255,.9); width: 715px; float: left; padding: 15px; -moz-box-shadow: 4px 4px 0 rgba(15,15,15,.4); -webkit-box-shadow: 4px 4px 0 rgba(15,15,15,.4); box-shadow: 4px 4px 0 rgba(15,15,15,.4); margin: 0 0 200px 0;}
     .admin #content-inner { width: 930px; }
   #main-column { min-height: 400px; }
   #side-content { width: 200px; min-height: 200px; background: #f8f1d3; right: 4px; position: absolute; top: 30px; padding: 25px 15px 15px; -moz-box-shadow: 4px 4px 0 rgba(15,15,15,.4); -webkit-box-shadow: 4px 4px 0 rgba(15,15,15,.4); box-shadow: 4px 4px 0 rgba(15,15,15,.4); }
@@ -52,6 +51,6 @@ body { margin: 0; padding: 0; font-family: Tahoma, Arial, Sans-Serif; font-size:
       #side-content .event_description p { margin: 5px 0; }
       
   #pre-content-middle { min-height: inherit; }
-  #footer-inner { font-size: .8em; }
+  #footer-inner { font-size: .8em; line-height: 1.2em; padding: 40px 0 10px 0; }
   #footer-menu { margin: 0; padding: 0; list-style: none; font-size: .9em; }
-    #footer-menu li { float: left; margin: 0 10px 5px 0; display: block; }
+    #footer-menu li { float: left; margin: 0 10px 0 0; display: block; }
