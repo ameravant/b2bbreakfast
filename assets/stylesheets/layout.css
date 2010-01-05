@@ -31,7 +31,7 @@ body { margin: 0; padding: 0; font-family: Tahoma, Arial, Sans-Serif; font-size:
       .submenu-inner li { float: left; display: block; margin: 0 15px; }
         .submenu-inner li a { color: #fff; font-size: .7em; text-decoration: none; text-transform: uppercase; }
   #menu-inner li a:hover, .submenu-inner li a:hover { color: #cde2f6; }
-  #crumb { font-size: .8em; }
+  #crumb { font-size: .8em; margin: 0 0 10px 0; }
   #content-middle { position: relative; top: 136px; }
     .admin #content-middle { top: 166px; }
   #content-inner { background: #F9F6EB; }
@@ -50,7 +50,6 @@ body { margin: 0; padding: 0; font-family: Tahoma, Arial, Sans-Serif; font-size:
       #side-content .events .event_tag { font-size: .65em; }
       #side-content .event_description p { margin: 5px 0; }
       
-  .top-headline { padding-top: 20px; }
   #pre-content-middle { min-height: inherit; }
   #footer-menu { margin: 0; padding: 0; list-style: none; }
     #footer-menu li { float: left; margin: 0 10px 5px 0; display: block; }
