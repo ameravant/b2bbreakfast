@@ -8,5 +8,10 @@
           %span.date== #{event.date_and_time.strftime('%d')}
           %span.day== #{event.date_and_time.strftime('%a')}
         .event_sponsor
-          = link_to(event.title, event)
+          - if event.link_id
+            - link = Link.find_by_id(event.link_id)
+            - unless link.images.empty?
+              = link_to(image_tag(link.images.first.image.url(:sponsor), :alt => link.title, :title => link.title), event)
+            - else
+              = link_to("Sponsored by: <br/>#{link.title}", event)
         = clear

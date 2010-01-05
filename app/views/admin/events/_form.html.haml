@@ -19,7 +19,7 @@
         )
   %tr
     %td
-      = f.label :link_id, "Category"
+      = f.label :link_id, "Event Sponsor"
     %td
       = f.select :link_id, Link.all.collect {|p| [p.title, p.id]}
   %tr.top

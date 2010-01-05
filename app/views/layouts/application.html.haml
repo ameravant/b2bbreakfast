@@ -79,7 +79,7 @@
                       %span Give it a try!
                 - if @cms_config['website']['logo_position'] == "top" or @admin
                   #logo
-                    = link_to(image_tag("/plugin_assets/z_b2bbreakfast/images/logo.png"), "/")
+                    = link_to(image_tag("/plugin_assets/z_b2bbreakfast/images/logo.png", :alt => "Business 2 Business Networking Breakfast - Santa Barbara and Goleta"), "/")
                   = clear if @admin
                 - if @settings.header_right.exists? and !@admin
                   #header-right
