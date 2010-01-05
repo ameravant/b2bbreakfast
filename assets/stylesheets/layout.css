@@ -1,0 +1,49 @@
+@import url(/stylesheets/elements.css);
+@import url(/stylesheets/classes.css);
+
+h1 {color: #255c92; font-weight: 500; font-family: Tahoma, Arial, sans-serif; margin-top: 0; margin-bottom: 0}
+h2 {color: #7ca2bb; font-weight: 500; font-family: Tahoma, Arial, sans-serif;}
+a img {border: 0;}
+a {color: #1c4d7d; }
+a:hover {color:#3974ac; }
+#error, #notice { font-size: 1.2em; color: #fff; padding: .5em .75em; font-weight: bold; }
+#error { background: #b00; }
+#notice { background: #0b0; }
+
+body { margin: 0; padding: 0; font-family: Tahoma, Arial, Sans-Serif; font-size: 15px; background: #8a734e url(/plugin_assets/z_b2bbreakfast/images/body-bg.jpg) repeat-x center 258px; }
+  #upcoming-event { width: 385px; height: 77px; position: absolute; right: 45px; top: 64px; z-index: 3; background: url(/plugin_assets/z_b2bbreakfast/images/first-tuesdays.jpg) no-repeat left top; color: #fff; -moz-box-shadow: 4px 4px 0 rgba(37,92,146,.45); -webkit-box-shadow: 4px 4px 0 rgba(37,92,146,.45); box-shadow: 4px 4px 0 rgba(37,92,146,.45); padding: 100px 0 0 28px;}
+    #upcoming-event p { margin: 0; line-height: 1.4em; font-size: 1.1em; }
+      #upcoming-event span { font-size: .7em; }
+  #header-middle, #menu-middle, .submenu-middle, #content-middle, #pre-content-middle, #footer-middle { width: 960px; margin: 0 auto; overflow: hidden; }
+  
+  #wrapper-inner { background: url(/plugin_assets/z_b2bbreakfast/images/sb-beach.jpg) repeat-x center 37px; }
+      .admin #wrapper-inner { background-position: center top;} 
+    #menu-outer { }
+  #header-outer { width: 960px; margin: 0 auto; position: relative; }
+    #header-middle { position: absolute; width: 305px; }
+  #menu-outer { background: #3974ac; height: 32px; }
+      #menu-inner { margin: 0; padding: 0; position: relative; left: 305px; }
+        #menu-inner li { display: block; float: left; line-height: 32px; margin: 0 15px; }
+          #menu-inner li a { color: #fff; text-decoration: none; text-transform: uppercase; }
+  .submenu-outer { background: #255c92; height: 26px; }
+    .submenu-inner { margin: 0; padding: 0; line-height: 24px; position: relative; left: 305px;}
+      .submenu-inner li { float: left; display: block; margin: 0 15px; }
+        .submenu-inner li a { color: #fff; font-size: .7em; text-decoration: none; text-transform: uppercase; }
+  #menu-inner li a:hover, .submenu-inner li a:hover { color: #cde2f6; }
+  #content-middle { position: relative; top: 126px; }
+    .admin #content-middle { top: 166px; }
+  #content-inner { background: #F9F6EB; }
+  #content-inner { background: rgba(255,255,255,.9); width: 715px; float: left; padding: 15px; -moz-box-shadow: 4px 4px 0 rgba(15,15,15,.4); -webkit-box-shadow: 4px 4px 0 rgba(15,15,15,.4); box-shadow: 4px 4px 0 rgba(15,15,15,.4); margin: 0 0 20px 0;}
+    .admin #content-inner { width: 930px; }
+  #side-content { width: 200px; min-height: 200px; background: #f8f1d3; right: 4px; position: absolute; top: 30px; padding: 25px 15px 15px; -moz-box-shadow: 4px 4px 0 rgba(15,15,15,.4); -webkit-box-shadow: 4px 4px 0 rgba(15,15,15,.4); box-shadow: 4px 4px 0 rgba(15,15,15,.4); }
+    .with-side-column #main-column { width: 480px; float: left; }
+    .with-side-column #side-column { width: 203px; margin: 40px 0 0 15px; float: left; }
+      #side-column h1 { color: #9b7e4f; }
+      
+      #side-content .events li { margin: 0 0 2px 0; line-height: 1.7em;  }
+      #side-content .event_date { width: 50px; float: left; margin: 0 20px 20px 0; text-align: center; padding: 4px; background: #fff; font-size: .9em; margin: 0 2px 0 0; height: 77px; }
+      #side-content .event_sponsor { background: #fff; padding: 5px; float: left; width: 130px; height: 75px; }
+      #side-content .event_date .month, #side-content .event_date .day, #side-content .event_date .date {display: block;}
+      #side-content .event_date .date { font-size: 2.2em; }
+      #side-content .events .event_tag { font-size: .65em; }
+      #side-content .event_description p { margin: 5px 0; }

@@ -1,0 +1,11 @@
+= link_to(image_tag("/plugin_assets/z_b2bbreakfast/images/gmap.gif", :alt => "Earl Warren Showgrounds", :title => "Earl Warren Showgrounds"), "http://maps.google.com/maps?ie=UTF8&q=Earl+Warren+Showgrounds,+Santa+Barbara,+California+93105&fb=1&split=1&gl=us&cid=0,0,17024055080469926283&ei=FIilSp6JO5LGMK7PxOQP&ll=34.429549,-119.739497&spn=0.011221,0.016222&z=16&iwloc=A")
+%ul.events
+  - for event in @upcoming_events
+    %li
+      .event_date
+        %span.month== #{event.date_and_time.strftime('%b')}
+        %span.date== #{event.date_and_time.strftime('%d')}
+        %span.day== #{event.date_and_time.strftime('%a')}
+      .event_sponsor
+        = link_to(event.title, event)
+      = clear

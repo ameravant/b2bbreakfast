@@ -1,0 +1,9 @@
+#upcoming-event
+  %p
+    %span Next Event: 
+    = @upcoming_events.first.date_and_time.strftime("%B %d, %Y")
+  - if @upcoming_events.first.link_id
+    - link = Link.find_by_id(@upcoming_events.first.link_id)
+    %p
+      %span Sponsored By: 
+      = link.title
