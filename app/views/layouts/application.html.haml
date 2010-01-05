@@ -87,11 +87,6 @@
           = render :partial => "/layouts/menu" unless @admin
           = yield :submenu if @content_for_submenu
           #main-panel
-            #pre-content-outer
-              #pre-content-middle
-                #pre-content-inner
-                  - if @breadcrumbs
-                    #crumb= @breadcrumbs.map { |txt, path| link_to_unless(path.blank?, h(txt), path) }.join(" > ")
             #content-outer
               #content-middle
                 - unless @admin
@@ -102,6 +97,11 @@
                     #side-column-2.sidebar
                       = yield :side_column_2
                   #main-column
+                    #pre-content-outer
+                      #pre-content-middle
+                        #pre-content-inner
+                          - if @breadcrumbs
+                            #crumb= @breadcrumbs.map { |txt, path| link_to_unless(path.blank?, h(txt), path) }.join(" > ")
                     = flash_div
                     - secure unless @cms_config['website']['demo']
                     = yield
