@@ -24,7 +24,7 @@ body { margin: 0; padding: 0; font-family: Tahoma, Arial, Sans-Serif; font-size:
     #header-middle { position: absolute; width: 305px; }
   #menu-outer { background: #3974ac; height: 32px; }
       #menu-inner { margin: 0; padding: 0; position: relative; left: 305px; }
-        #menu-inner li { display: block; float: left; line-height: 32px; margin: 0 15px; }
+        #menu-inner li { display: block; float: left; line-height: 32px; margin: 0 15px; font-size: .85em; }
           #menu-inner li a { color: #fff; text-decoration: none; text-transform: uppercase; }
   .submenu-outer { background: #255c92; height: 26px; }
     .submenu-inner { margin: 0; padding: 0; line-height: 24px; position: relative; left: 305px;}
