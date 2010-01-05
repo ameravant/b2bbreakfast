@@ -52,5 +52,6 @@ body { margin: 0; padding: 0; font-family: Tahoma, Arial, Sans-Serif; font-size:
       #side-content .event_description p { margin: 5px 0; }
       
   #pre-content-middle { min-height: inherit; }
-  #footer-menu { margin: 0; padding: 0; list-style: none; }
+  #footer-inner { font-size: .8em; }
+  #footer-menu { margin: 0; padding: 0; list-style: none; font-size: .9em; }
     #footer-menu li { float: left; margin: 0 10px 5px 0; display: block; }
