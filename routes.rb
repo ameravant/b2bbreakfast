@@ -1,1 +1,1 @@
-map.connect '/sponsors', :controller => 'link_categories', :action => 'show', :id => '1-annual-sponsors'
+map.connect '/annual-sponsors', :controller => 'link_categories', :action => 'show', :id => '1-annual-sponsors'
