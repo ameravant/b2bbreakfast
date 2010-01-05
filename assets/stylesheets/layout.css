@@ -37,6 +37,7 @@ body { margin: 0; padding: 0; font-family: Tahoma, Arial, Sans-Serif; font-size:
   #content-inner { background: #F9F6EB; }
   #content-inner { background: rgba(255,255,255,.9); width: 715px; float: left; padding: 15px; -moz-box-shadow: 4px 4px 0 rgba(15,15,15,.4); -webkit-box-shadow: 4px 4px 0 rgba(15,15,15,.4); box-shadow: 4px 4px 0 rgba(15,15,15,.4); margin: 0 0 20px 0;}
     .admin #content-inner { width: 930px; }
+  #main-column { min-height: 400px; }
   #side-content { width: 200px; min-height: 200px; background: #f8f1d3; right: 4px; position: absolute; top: 30px; padding: 25px 15px 15px; -moz-box-shadow: 4px 4px 0 rgba(15,15,15,.4); -webkit-box-shadow: 4px 4px 0 rgba(15,15,15,.4); box-shadow: 4px 4px 0 rgba(15,15,15,.4); }
     .with-side-column #main-column { width: 480px; float: left; }
     .with-side-column #side-column { width: 203px; margin: 50px 0 0 15px; float: left; }
