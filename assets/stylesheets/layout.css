@@ -10,7 +10,7 @@ a:hover {color:#3974ac; }
 #error { background: #b00; }
 #notice { background: #0b0; }
 
-body { margin: 0; padding: 0; font-family: Tahoma, Arial, Sans-Serif; font-size: 15px; background: #8a734e url(/plugin_assets/z_b2bbreakfast/images/body-bg.jpg) repeat-x center 258px; }
+body { margin: 0; padding: 0; font-family: Tahoma, Arial, Sans-Serif; font-size: 15px; background: #8a734e url(/plugin_assets/z_b2bbreakfast/images/body-bg.jpg) repeat-x center 258px; line-height: 1.6em; }
   #upcoming-event { width: 385px; height: 77px; position: absolute; right: 45px; top: 64px; z-index: 3; background: url(/plugin_assets/z_b2bbreakfast/images/first-tuesdays.jpg) no-repeat left top; color: #fff; -moz-box-shadow: 4px 4px 0 rgba(37,92,146,.45); -webkit-box-shadow: 4px 4px 0 rgba(37,92,146,.45); box-shadow: 4px 4px 0 rgba(37,92,146,.45); padding: 100px 0 0 28px;}
     #upcoming-event p { margin: 0; line-height: 1.4em; font-size: 1.1em; }
       #upcoming-event span { font-size: .7em; }
