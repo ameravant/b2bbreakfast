@@ -32,7 +32,7 @@ body { margin: 0; padding: 0; font-family: Tahoma, Arial, Sans-Serif; font-size:
         .submenu-inner li a { color: #fff; font-size: .7em; text-decoration: none; text-transform: uppercase; }
   #menu-inner li a:hover, .submenu-inner li a:hover { color: #cde2f6; }
   #crumb { font-size: .8em; }
-  #content-middle { position: relative; top: 126px; }
+  #content-middle { position: relative; top: 136px; }
     .admin #content-middle { top: 166px; }
   #content-inner { background: #F9F6EB; }
   #content-inner { background: rgba(255,255,255,.9); width: 715px; float: left; padding: 15px; -moz-box-shadow: 4px 4px 0 rgba(15,15,15,.4); -webkit-box-shadow: 4px 4px 0 rgba(15,15,15,.4); box-shadow: 4px 4px 0 rgba(15,15,15,.4); margin: 0 0 20px 0;}
