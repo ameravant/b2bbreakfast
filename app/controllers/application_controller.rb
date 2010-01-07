@@ -32,10 +32,8 @@ class ApplicationController < ActionController::Base
     @menu = Page.visible
     @settings = Setting.first
     @footer_pages = Page.find(:all, :conditions => {:show_in_footer => true}, :order => :footer_pos )
-    session[:template] = params[:template][:id] if params[:template]
-    @templates = ["demo", "t3c2", "t3c3", "t3c4", "t3c5", "t3c6", "t3c7", "t4c1", "t4c2", "t4c3", "t4c4", "t5c2", "t5c3", "t5c4", "t5c5", "t5c6", "t5c7"] if @cms_config['website']['demo']
     @upcoming_events = Event.future.soonest
-    
+    @sidebar_links = Link.all(:conditions => {:feature_in_sidebar => true}).sort_by(&:rand)
   end
   
   def get_siteninja_config
@@ -60,3 +58,4 @@ class ApplicationController < ActionController::Base
   end
   
 end
+

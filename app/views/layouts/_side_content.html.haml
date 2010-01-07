@@ -15,3 +15,8 @@
             - else
               = link_to("Sponsored by: <br/>#{link.title}", event)
         = clear
+- unless @sidebar_links.empty?
+  %ul.links
+    - for link in @sidebar_links
+      %li{:class => cycle('left', 'right')}= link_to(image_tag(link.images.first.image.url(:sponsor_small), :alt => link.title, :title => link.title), link)
+  =clear
