@@ -1,7 +1,7 @@
 @import url(/stylesheets/elements.css);
 @import url(/stylesheets/classes.css);
 
-h1 {color: #255c92; font-weight: 500; font-family: Tahoma, Arial, sans-serif; margin-top: 0; margin-bottom: 0}
+h1 {color: #255c92; font-weight: 500; font-family: Tahoma, Arial, sans-serif; margin-top: 0; margin-bottom: 10px}
 h2 {color: #7ca2bb; font-weight: 500; font-family: Tahoma, Arial, sans-serif;}
 a img {border: 0;}
 a {color: #1c4d7d; }
