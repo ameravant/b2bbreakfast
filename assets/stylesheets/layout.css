@@ -65,3 +65,4 @@ body { margin: 0; padding: 0; font-family: Tahoma, Arial, Sans-Serif; font-size:
     #footer-menu li { float: left; margin: 0 10px 0 0; display: block; }
     
   #google_map { width: 200px !important; }
+  h1 a { text-decoration: none; }
