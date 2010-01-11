@@ -50,8 +50,8 @@ body { margin: 0; padding: 0; font-family: Tahoma, Arial, Sans-Serif; font-size:
       #side-content .events li { margin: 0 0 2px 0; line-height: 1.7em;  }
       #side-content .event_date { width: 50px; float: left; margin: 0 20px 20px 0; text-align: center; padding: 4px; background: #fbfaf2; font-size: .9em; margin: 0 2px 0 0; height: 77px; }
       #side-content .event_sponsor { background: #fff; padding: 10px; float: left; width: 120px; height: 65px; }
-      #side-content .event_date .month, #side-content .event_date .day, #side-content .event_date .date { display: block; }
-      #side-content .event_date .date { font-size: 2.2em; }
+      #side-content .event_date .month, #side-content .event_date .day, #side-content .event_date .date { display: block; font-size: 1.4em; }
+      #side-content .event_date .date { font-size: 2.4em; margin: 5px 0 0; }
       #side-content .events .event_tag { font-size: .65em; }
       #side-content .event_description p { margin: 5px 0; }
       #side-content .links { list-style: none; margin: 0; padding: 0; }

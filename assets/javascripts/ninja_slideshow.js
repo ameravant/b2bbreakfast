@@ -1,7 +1,7 @@
 // This script assumes the slideshow is contained within an id of "images".
 jQuery(document).ready(function() {
   jQuery('#images').galleryView({
-    panel_width: 548,
+    panel_width: 472,
     panel_height: 300,
     frame_width: 85,
     frame_height: 55,

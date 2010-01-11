@@ -7,7 +7,6 @@
         .event_date
           %span.month== #{event.date_and_time.strftime('%b')}
           %span.date== #{event.date_and_time.strftime('%d')}
-          %span.day== #{event.date_and_time.strftime('%a')}
         .event_sponsor
           - if event.link_id
             - link = Link.find_by_id(event.link_id)
