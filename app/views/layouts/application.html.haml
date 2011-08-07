@@ -27,7 +27,7 @@
     = # javascript_include_tag "http://ajax.googleapis.com/ajax/libs/scriptaculous/1.8.2/scriptaculous.js"
     = javascript_include_tag "/plugin_assets/siteninja_core/javascripts/application.js"
     - # Global styles
-    = stylesheet_link_tag "/plugin_assets/z_b2bbreakfast/stylesheets/layout.css"
+    = stylesheet_link_tag "/plugin_assets/b2bbreakfast/stylesheets/layout.css"
     = stylesheet_link_tag "/plugin_assets/siteninja_core/stylesheets/application.css"
     - # Styles to include if site uses specific modules
     - if @cms_config['modules']['blog']
@@ -52,7 +52,7 @@
       = javascript_include_tag "/plugin_assets/siteninja_core/jquery-galleryview-1.1/jquery.galleryview-1.1.js"
       = javascript_include_tag "/plugin_assets/siteninja_core/jquery-galleryview-1.1/jquery.timers-1.1.2.js"
       = stylesheet_link_tag "/plugin_assets/siteninja_core/jquery-galleryview-1.1/galleryview.css"
-      = javascript_include_tag "/plugin_assets/z_b2bbreakfast/javascripts/ninja_slideshow.js"
+      = javascript_include_tag "/plugin_assets/b2bbreakfast/javascripts/ninja_slideshow.js"
     = stylesheet_link_tag "/plugin_assets/siteninja_core/stylesheets/print.css", :media => "print"
     <!--[if lt IE 8]><link href="/stylesheets/ie_fix.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
     = yield :head # For scripts and styles specific to view
@@ -80,7 +80,7 @@
                       %span Give it a try!
                 - if @cms_config['website']['logo_position'] == "top" or @admin
                   #logo
-                    = link_to(image_tag("/plugin_assets/z_b2bbreakfast/images/logo.png", :alt => "Business 2 Business Networking Breakfast - Santa Barbara and Goleta", :title => "Business 2 Business Networking Breakfast - Santa Barbara and Goleta"), "/")
+                    = link_to(image_tag("/plugin_assets/b2bbreakfast/images/logo.png", :alt => "Business 2 Business Networking Breakfast - Santa Barbara and Goleta", :title => "Business 2 Business Networking Breakfast - Santa Barbara and Goleta"), "/")
                   = clear if @admin
                 - if @settings.header_right.exists? and !@admin
                   #header-right
