@@ -1,3 +1,4 @@
+- @upcoming_events = Event.future.soonest
 - unless @upcoming_events.empty?
   #upcoming-event
     = link_to("Sign up today!", @upcoming_events.first, :id => "sign-up", :title => "Sign Up Today!")
