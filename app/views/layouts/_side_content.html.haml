@@ -1,7 +1,7 @@
 - @upcoming_events = Event.future.soonest
 - @sidebar_links = Link.all(:conditions => {:feature_in_sidebar => true}).sort_by(&:rand)
 %h1 Website Sponsors:
-= link_to(image_tag("/plugin_assets/z_b2bbreakfast/images/presenting-sponsors.gif", :alt => "Website Sponsors", :title => "Website Sponsors", :id => "presenting-sponsors"), "/annual-sponsors")
+= link_to(image_tag("/plugin_assets/b2bbreakfast/images/presenting-sponsors.gif", :alt => "Website Sponsors", :title => "Website Sponsors", :id => "presenting-sponsors"), "/annual-sponsors")
 - unless @upcoming_events.empty?
   %ul.events
     - for event in @upcoming_events
