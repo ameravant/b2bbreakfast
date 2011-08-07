@@ -184,6 +184,8 @@
                             = link_to "Ameravant Web Studio", "http://www.ameravant.com"
 
             = clear
+      = yield :pre_footer
+    = yield :footer if @content_for_footer
     - if Rails.env.production? and !@admin and !@settings.tracking_code.blank?
       = @settings.tracking_code
 
